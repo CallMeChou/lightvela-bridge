@@ -1,0 +1,29 @@
+# Personal credentials and application state
+.env
+.env.*
+!.env.example
+settings.json
+state.json
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.new
+*.tmp
+*.user
+*.pdb
+*.exe
+*.lnk
+*.zip
+node_modules/
+browser/
+backups/
+.dsh/
+.cc-switch/
+.codex/
+.claude/
+.cache/
+# Restore official dependencies with the pinned restore script
+lightvela-proxy/vendor/webview2/*.dll
+lightvela-proxy/vendor/webview2/package/
+lightvela-proxy/vendor/webview2/.cache/

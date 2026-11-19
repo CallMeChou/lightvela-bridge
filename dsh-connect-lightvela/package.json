@@ -1,0 +1,43 @@
+{
+  "name": "dsh-connect-lightvela",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "把 LightVela 网页 Agent（Hermes 实例）接入 DSH 模型列表",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lv-api.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-llm": ">=0.1.7",
+    "@deepseek-ai/schemastery": ">=3.18.1"
+  },
+  "scripts": {
+    "test:manual": "node runtime-shape-test.mjs"
+  }
+}

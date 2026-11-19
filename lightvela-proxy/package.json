@@ -1,0 +1,14 @@
+{
+  "name": "lightvela-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LightVela 网页 Agent -> OpenAI 兼容反向代理",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "probe": "node probe.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=24" }
+}

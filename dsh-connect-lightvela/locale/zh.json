@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "LightVela 连接",
+    "description": "把 LightVela 网页 Agent（Hermes 实例）接入 DSH 模型列表：填一次会话 token，实例与模型自动发现，请求经实例内 hermes 执行。",
+    "detail": "docs/DETAIL.md"
+  }
+}

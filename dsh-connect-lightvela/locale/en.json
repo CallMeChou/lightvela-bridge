@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "LightVela connect",
+    "description": "Brings the LightVela web agent (a Hermes instance) into the DSH model list: paste a session token once, instances and models are discovered, and requests run through hermes inside the instance.",
+    "detail": "docs/DETAIL.md"
+  }
+}

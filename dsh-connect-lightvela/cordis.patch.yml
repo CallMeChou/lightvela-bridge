@@ -1,0 +1,5 @@
+# 注册 LightVela provider，不改动 profile 的默认模型。
+# 登录与 token 保存在插件自己的 settings 里，通过设置页完成一次即可。
+- insert:
+    - id: dsh-connect-lightvela
+      name: dsh-connect-lightvela
