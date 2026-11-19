@@ -25,7 +25,7 @@
 
 功能包括网页登录后自动获取 Token、使用 Windows 当前用户加密保存、退出并重新登录、更换账号、实例检查、启动本地反代，以及备份后导入 CC Switch。
 
-**直接下载：**前往 [Releases](https://github.com/CallMeChou/lightvela-bridge/releases/latest)，选择 `LightVela-Bridge-v1.0.0-windows-x64.zip`，完整解压后双击 `LightVela-Bridge.exe`。压缩包包含 EXE、运行脚本和 WebView2 SDK 文件；单独的 EXE 附件仅供已有完整目录替换使用。需要自行安装 [Node.js 24+](https://nodejs.org/en/download) 和 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)。
+**直接下载：** 前往 [Releases](https://github.com/CallMeChou/lightvela-bridge/releases/latest)，选择 `LightVela-Bridge-v1.0.0-windows-x64.zip`，完整解压后双击 `LightVela-Bridge.exe`。压缩包包含 EXE、运行脚本和 WebView2 SDK 文件；单独的 EXE 附件仅供已有完整目录替换使用。需要自行安装 [Node.js 24+](https://nodejs.org/en/download) 和 [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)。
 
 也可以自行构建：准备 Node.js 24 或更新版本、Windows PowerShell 5.1 和 Microsoft Edge WebView2 Runtime，在 `lightvela-proxy` 目录运行：
 
