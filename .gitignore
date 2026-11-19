@@ -16,6 +16,7 @@ state.json
 *.lnk
 *.zip
 node_modules/
+dist/
 browser/
 backups/
 .dsh/

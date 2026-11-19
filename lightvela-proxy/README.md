@@ -2,6 +2,10 @@
 
 独立运行，不依赖 DSH 插件。完整入口与演示见 [仓库说明](../README.md)。
 
+## 下载
+
+从 [Releases](https://github.com/CallMeChou/lightvela-bridge/releases/latest) 下载 Windows x64 ZIP，完整解压后运行 `LightVela-Bridge.exe`。请保留所有同目录文件。需要安装 Node.js 24+（加入 PATH）和 Edge WebView2 Runtime；详情见 [Windows 使用说明](./WINDOWS-README.md)。单独 EXE 附件只能替换已有完整目录中的程序。
+
 ## 构建
 
 Windows、Node.js 24+、Windows PowerShell 5.1、Edge WebView2 Runtime：
@@ -13,6 +17,8 @@ Windows、Node.js 24+、Windows PowerShell 5.1、Edge WebView2 Runtime：
 ```
 
 源码仓库不携带编译产物及 SDK 二进制。恢复脚本从官方 NuGet 下载 WebView2 1.0.4314.35，校验 SHA256 后提取所需文件；同目录保留微软 LICENSE 和 NOTICE。
+
+构建完成后运行 `powershell.exe -NoProfile -File .\Package-Windows.ps1` 可生成 Release ZIP、EXE 和 SHA256 校验文件。打包脚本只复制明确列出的运行文件，不包含本机登录或浏览器数据。
 
 ## 使用
 
